@@ -22,7 +22,7 @@ To get this to work, follow the steps below:
 
 7.  If you've cloned the repository to your development machine, upload the **node** folder to a location on Raspberry Pi, using Filezilla, or a similar FTP client.
 
-8.  SSH into the Pi (use Putty if you're on a Windows dev machine), run *npm install* to install all the required dependencies automatically. This process can take about a minute or so to complete.
+8.  SSH into the Pi (use Putty if you're on a Windows dev machine), run *npm install* to install all the required dependencies automatically. This process can take about a minute or so to complete. Make sure you have latest version of node node on the raspberry.
 
 9. Once they are installed, run the index.js file with sudo - *sudo node index.js*. If successful, you will start seeing the temperature and the humiity of the room every 2 seconds.
 
